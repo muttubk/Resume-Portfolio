@@ -192,6 +192,12 @@ td {
   opacity: 1;
 }
 
+#copy-right{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2rem 0 5rem 0;
+}
+
 @media screen and (max-width: 768px) {
   :root {
     font-size: 10px;
