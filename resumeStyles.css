@@ -1,0 +1,161 @@
+
+:root {
+  font-size: 12px;
+}
+/* radial-gradient(white, rgb(194, 194, 194)) */
+/* linear-gradient(45deg, tomato, darkorange, tomato ) */
+
+body{
+  background: linear-gradient(45deg, tomato, darkorange, tomato );
+}
+.resume>div{
+  background: radial-gradient(white, rgb(194, 194, 194));
+}
+.resume {
+  margin: 10vh;
+}
+
+#profilePhoto {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  border: 8px groove goldenrod;
+  margin: 0 auto;
+  display: block;
+}
+
+.details {
+  font-size: 1.5rem;
+  margin: 30px auto;
+  align-items: center;
+  text-align: center;
+  padding: 10px 90px;
+  box-shadow: 1px 10px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.contact{
+  margin: 10px;
+}
+
+.contact a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact button{
+  background: radial-gradient(violet, rgb(162, 64, 232));
+  color: #fff;
+  margin: 10px 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.education {
+  margin: 30px auto;
+  align-items: center;
+  padding: 10px 90px;
+  box-shadow: 1px 10px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: 10px;
+}
+
+.skillsPart {
+  margin: 30px auto;
+  align-items: center;
+  padding: 10px 90px;
+  box-shadow: 1px 10px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.skillList {
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  /* border: 0px solid black; */
+  box-shadow: 1px 10px 20px 1px rgba(0, 0, 0, 0.2);
+  background-color: cadetblue;
+  color: #fff;
+}
+
+.projects {
+  margin: 30px auto;
+  padding: 10px 90px;
+  box-shadow: 1px 10px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+.extra {
+  margin: 30px auto;
+  padding: 10px 90px;
+  box-shadow: 1px 10px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+.extra ul{
+  padding-left: 1.5rem;
+}
+.extra li {
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 10px;
+  }
+  .resume {
+    margin: 1vh;
+  }
+  #profilePhoto {
+    width: 100px;
+    height: 100px;
+    border: 4px groove goldenrod;
+  }
+  .details {
+    padding: 10px 10px;
+  }
+  .education {
+    padding: 10px 10px;
+  }
+  .skillsPart {
+    padding: 10px 10px;
+  }
+  .projects {
+    padding: 10px 10px;
+  }
+
+  .extra {
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .extra{
+    flex-direction: column;
+    align-items: center;
+  }
+}
